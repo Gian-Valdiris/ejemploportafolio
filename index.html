@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website de Juan David Aguilar Gonzalez."
+    />
+    <title>Portafolio Juan Gonzales</title>
+
+    <!--==================== OPEN GRAPH META TAGS ===================== -->
+    <meta property="og:title" content="portafolio" />
+    <meta property="og:image" content="assets/img/PwaImages/ios/512.png" />
+    <meta
+      property="og:description"
+      content="Portfolio de Juan David Aguilar Gonzalez para proyecto."
+    />
+
+    <!--==================== TWITTER META TAGS ===================== -->
+    <meta name="twitter:title" content="portafolio Juan David Aguilar Gonzalez" />
+    <meta
+      name="twitter:description"
+      content="Portfolio de Juan David Aguilar Gonzalez para proyecto."
+    />
+    <meta name="twitter:image" content="assets/img/PwaImages/ios/512.png" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- ====================PWA================== -->
+    <link rel="manifest" href="manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/32.png" />
+    <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/72.png" />
+    <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/100.png" />
+    <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/128.png" />
+    <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/144.png" />
+    <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/152.png" />
+    <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/192.png" />
+    <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/256.png" />
+    <link rel="apple-touch-icon" href="assets/img/PwaImages/ios/512.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#6E57E0" />
+    <meta name="theme-color" content="#6E57E0" />
+
+    <!-- ============FAVICONS============== -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/img/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets//img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/img/favicons/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/img/favicons/favicon.ico"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- ===================== LOADER ==================== -->
+    <div id="loading">
+      <div class="loader"><span><</span><span>/></span></div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo noSelect">Mi Portafolio</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link noSelect active-link">
+                <i class="uil uil-estate nav__icon"></i> Inicio
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link noSelect">
+                <i class="uil uil-user nav__icon"></i> Sobre Mi
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#calificaciones" class="nav__link noSelect">
+                <i class="uil uil-file-alt nav__icon"></i> Estudios
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#services" class="nav__link noSelect">
+                <i class="uil uil-briefcase-alt nav__icon"></i> Gustos
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link noSelect">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link noSelect">
+                <i class="uil uil-message nav__icon"></i> Contactame
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close noSelect" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle noSelect" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href=""
+                target="_blank"
+                class="home__social-icon"
+              >
+              </a>
+              <a
+                href=""
+                target="_blank"
+                class="home__social-icon"
+              >
+              </a>
+              <a
+                href=""
+                target="_blank"
+                class="home__social-icon"
+              >
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-20"
+                    xlink:href="assets/img/hacker-profile.png"
+                  ></image>
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hola, Soy Juan Aguilar</h1>
+              <h3 class="home__subtitle">Estudiante Ing de Sistemas</h3>
+              <p class="home__description">
+                Juan David Aguilar Gonzalez, nació el 03 de septiembre de 2001 (22 años), en la ciudad de Bogotá. 
+                Es un estudiante de Ingeniería de Sistemas y trabaja en un concesionario como perito de vehículos, 
+                lleva 3 años en esta labor y se ha desempeñado por ser uno de los mejores.
+              </p>
+              <a href="#contact" class="button button--flex">
+                Contactame<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Mas..</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== ABOUT ====================-->
+
+    <section class="about section" id="about">
+      <h2 class="section__title">Sobre mí</h2>
+      <span class="section__subtitle"></span>
+
+      <div class="about__container container grid">
+        <img src="assets/img/mt-fuji.jpg" alt="" class="about__image" />
+
+        <div class="about__data">
+          <p class="about__description">
+            En su vida de joven comparte varios gustos con varios de sus compañeros de estudio, de barrio, de universidad y de trabajo, 
+            los cuales llevan su vida un poco al límite en algunas ocasiones y generalmente está dispuesto a afrontarlos porque le gusta demasiado la adrenalina y la aventura. <br />
+             <br />
+            Sus padres son Colombianos y  ambos han estado presentes en la vida de él desde que era un niño, 
+            siempre lo apoyaron y lo enfocaron por el buen camino haciendo de él una persona íntegra, 
+            con valores y principios que lo hacen un ejemplo a seguir para muchas personas.
+          </p>
+          
+
+          <div class="about__buttons">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <!--==================== QUALIFICATOIN ====================-->
+
+    <section class="qualification section" id="calificaciones">
+      <h2 class="section__title">Estudios</h2>
+      <span class="section__subtitle">Estudios Personales</span>
+
+      <div class="qualification__container container">
+        <div class="qualification__tabs">
+          <div
+            class="qualification__button button--flex qualification__active"
+            data-target="#work"
+          >
+            <i class="uil uil-briefcase-alt qualification__icon"> </i> Estudios
+          </div>
+        </div>
+
+        <div class="qualification__sections">
+          <!--==================== QUALIFICATOIN CONTENT 1====================-->
+          <div
+            class="qualification__content qualification__active"
+            data-content
+            id="work"
+          >
+            <!--==================== QUALIFICATOIN 1====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">SERVICIO NACIONAL DE APRENDIZAJE(SENA)</h3>
+                <span class="qualification__subtitle"> Técnico en mantenimiento eléctrico y electrónico automotriz </span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i> 2019-2021
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATOIN 2====================-->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">ESCUELA TECNOLOGICA INSTITUTO TECNICO CENTRAL (ETITC)</h3>
+                <span class="qualification__subtitle"> Curso de inglés nivel A2 certificado. </span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i> Junio 2019
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATOIN 3====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">CENTRO EDUCATIVO LOS ANDES</h3>
+                <span class="qualification__subtitle"> Bachiller técnico en administración de empresas. </span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i> Diciembre 2018
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATOIN 4====================-->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <!-- <span class="qualification__line"></span> -->
+              </div>
+              <div>
+                <h3 class="qualification__title"> SERVICIO NACIONAL DE APRENDIZAJE (SENA) </h3>
+                <span class="qualification__subtitle"> Curso especial en establecer estrategias logísticas. </span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i> 40 horas, Año: 2018
+                </div>
+              </div>
+            </div>
+            <!--==================== QUALIFICATOIN 5====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title"> SERVICIO NACIONAL DE APRENDIZAJE (SENA) </h3>
+                <span class="qualification__subtitle"> Complementaria virtual en metodología de la programación de sistemas informáticos. </span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i> 40 horas, Año: 2017
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== GUSTOS ====================-->
+
+    <section class="about section" id="services">
+      <h2 class="section__title">Gustos</h2>
+      <span class="section__subtitle"></span>
+
+      <div class="about__container container grid">
+        <img src="assets/img/gustos.jpg"  />
+
+        <div class="about__data">
+          <p class="about__description">
+            Me gusta mucho salir a rodar y desafiar a sus amigos en las carreteras de pueblos aledaños a Bogotá, 
+            desde muy pequeño le gustó el futbol y siempre fuí muy apasionado. 
+            Me gusta mucho conocer nuevos paisajes y enfrentarse a experiencias nuevas que nunca eh experimentado.</b>
+            Estos son algunos de sus gustos más significativos y los que practica con más frecuencia dentro de sus tiempos 
+            libres, porque además de eso le gusta trabajar y estudiar por lo que no tiene mucho tiempo para 
+            poder hacer sus hobbies de manera tranquila
+          </p>
+          
+
+          <div class="about__buttons">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!--==================== PORTFOLIO ====================-->
+
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portafolio</h2>
+      <span class="section__subtitle">Creaciones</span>
+
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!--==================== PORTFOLIO 1====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img
+              src="assets/img/portfolio/unichat.PNG"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Chat Application</h3>
+              <p class="portfolio__description">
+                Chat app created using react, firebase and chat-engine.
+              </p>
+              <a
+                href=""
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Nueva Pagina
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 2====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img
+              src="assets/img/portfolio/track-service-request.PNG"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Track service request graph</h3>
+              <p class="portfolio__description">
+                Service request graph to show various stages of bidirectional
+                progress.
+              </p>
+              <a
+                href=""
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Nueva Pagina
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 3====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img
+              src="assets/img/portfolio/stopwatch.png"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Stop-watch</h3>
+              <p class="portfolio__description">
+                Light weight Stop-Watch application using Angular without
+                external libraries/dependencies.
+              </p>
+              <a
+                href=""
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Nueva Pagina
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!--==================== PORTFOLIO 4====================-->
+          <div class="portfolio__content grid swiper-slide">
+            <img
+              src="assets/img/portfolio/file-reader.png"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">File reader</h3>
+              <p class="portfolio__description">
+                Light weight file reader Angular component without external
+                libraries/dependencies.
+              </p>
+              <a
+                href=""
+                target="_blank"
+                class="button button--flex button--small portfolio__button"
+              >
+                Nueva Pagina
+                <i class="uil uil-arrow-right button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add arrows -->
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--==================== PROJECT IN MIND ====================-->
+
+    <section class="project section">
+      <div class="project__bg">
+        <div class="project__container container grid">
+          <div class="project__data">
+            <h2 class="project__title">Tienes un nuevo proyecto ?</h2>
+            <p class="project__description">
+              Me encantaría charlar contigo sobre ti
+              proyecto y ver como podemos trabajar
+              juntos para crear algo realmente
+              sorprendente.
+            </p>
+            <a href="#contact" class="button button--flex button--white">
+              Contactame
+              <i class="uil uil-message project__icon button__icon"></i>
+            </a>
+          </div>
+
+          <img src="assets/img/travel-pic3.png" alt="" class="project__img" />
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CONTACT ME ====================-->
+
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contactame</h2>
+      <span class="section__subtitle">Mis datos</span>
+
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Llamame</h3>
+              <span class="contact__subtitle">+57 3133939129</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">juaguilarg@unbosque.edu.co</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Localidad</h3>
+              <span class="contact__subtitle">Colombia</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="" class="contact__label">Name</label>
+              <input type="text" class="contact__input" />
+            </div>
+
+            <div class="contact__content">
+              <label for="" class="contact__label">Email</label>
+              <input type="email" class="contact__input" />
+            </div>
+          </div>
+          <div class="contact__content">
+            <label for="" class="contact__label">Project</label>
+            <input type="text" class="contact__input" />
+          </div>
+          <div class="contact__content">
+            <label for="" class="contact__label">Message</label>
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="7"
+              class="contact__input"
+            ></textarea>
+          </div>
+
+          <div>
+            <a href="#" class="button button--flex">
+              Enviar Mensaje
+              <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!--==================== FOOTER ====================-->
+
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Juan Gonzales</h1>
+            <span class="footer__subtitle">Estudiante</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Gustos</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portafolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contactame</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.facebook.com/juandavid.leon.1800721"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-facebook-f"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/juan_david0309/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; Juan Gonzales Creaciones Reservadas.</p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ===================== SHOW/HIDE LOADER ==================== -->
+    <script>
+      window.onload = function () {
+        document.getElementById("loading").style.display = "none";
+      };
+    </script>
+
+    <!-- =====================REGISTER SERVICE WORKER================ -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("/serviceWorker.js")
+            .then((res) => console.log("service worker registered"))
+            .catch((err) => console.log("service worker not registered", err));
+        });
+      }
+    </script>
+  </body>
+</html>
